@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, td, th{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+
+            <td>Name</td>
+            <td>Surname</td>
+            <td>Age</td>
+            <td>Email</td>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+
+            <td>Altin</td>
+            <td>Gashi</td>
+            <td>17</td>
+            <td>Altin@gmail.com</td>
+
+        </tr>
+        <tr>
+
+            <td>Drin</td>
+            <td>Gashi</td>
+            <td>17</td>
+            <td>Drin@gmail.com</td>
+
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Table Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Altin Gashi</td>
+            <td>Drin Gashi</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Email</th>
+            <td>Altin@gmail.com</td>
+            <td rowspan="2">Drin@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Altin@hotmail.com</td>
+        </tr>
+    </table>
+
+    <!--unordered List-->
+    <ul type="circle">
+        <li>hamburger</li>
+        <li>pizza</li>
+        <li>cake</li>
+    </ul>
+    <ul type="none">
+        <li>hamburger</li>
+        <li>pizza</li>
+        <li>cake</li>
+    </ul>
+    <ul type="square">
+        <li>hamburger</li>
+        <li>pizza</li>
+        <li>cake</li>
+    </ul>
+
+    <hr>
+    <!---ordered List-->
+    <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+         <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+    <ol type="I">
+        <li>HTML</li>
+        <li>CSS</li>
+         <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+         <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+
+    <hr>
+
+    <!--description list-->
+    <dl>
+        <dt>pizza</dt>
+        <dd> proshut etj</dd>
+        <dt>burger</dt>
+        <dd> meat etj</dd>
+    </dl>
+
+    <hr>
+
+    <h1 contenteditable="true"> try change the text</h1>
+    <div contenteditable="true"> try change the text</div>
+
+    <hr>
+
+    <p>we have a meeting  at <time >15:00</time>today</p>
+    <p>we have a meeting at <time datetime="2026-02-05 15:00"></time> today</p>
+    
+    <hr>
+
+    <label for="task">Task complation</label>
+    <progress id="task" value="10" max="100"></progress>10%
+    <hr>
+    <label for="volume">Volume:</label>
+    <progress value="90" id="volume" min="10" max="100">90%</progress>90%
+
+</body>
+</html>
