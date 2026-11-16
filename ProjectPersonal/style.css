@@ -233,5 +233,29 @@ schedule-table {
     background-color: #1d1d1d;
 }
 
+footer {
+    background-color: #050505;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #222222;
+    color: #666666;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .features-grid {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+
 
 
