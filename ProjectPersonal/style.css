@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #111111;
+    background-color: black;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ nav a:hover {
 
 .hero p {
     font-size: 18px;
-    color: #cccccc;
+    color: #cccbcb;
     max-width: 600px;
     margin-bottom: 30px;
 }
@@ -240,21 +240,6 @@ footer {
     border-top: 1px solid #222222;
     color: #666666;
     font-size: 13px;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .features-grid {
-        flex-direction: column;
-    }
-
-    .hero h1 {
-        font-size: 40px;
-    }
 }
 
 
