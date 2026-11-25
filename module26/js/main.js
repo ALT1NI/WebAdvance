@@ -28,3 +28,40 @@ var k=10;
 var l=4;
 var m=k%l;
 console.log(m);
+
+
+var n=99;
+n++;
+console.log(n);
+
+var o=101;
+o--;
+console.log(o);
+
+var p=20;
+var q = p ** 2;
+console.log(q);
+
+var x=15;
+x+=5;
+console.log(x);
+
+var r=35;
+r-=5;
+console.log(r);
+
+var s=10;
+s*=7;
+console.log(s);
+
+var t=200;
+t/=2;
+console.log(t);
+
+var u=10;
+u/=5;
+console.log(u);
+
+var v=5;
+var w=5;
+console.log(v == w);
